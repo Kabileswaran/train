@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>train</title>
+</head>
+<body style="background: lavenderblush;">
+    <h1 style="text-align: center;">TRAIN BOOKING</h1>
+    <hr>
+    <a href="login.html"><h3 style="color: black ;text-align: center;">LOGIN</h3></a>
+    <form  action="search.html" style="text-align:center;" method="get" target="search.html">
+        <label for="from"><b>FROM</b></label>
+       <input type="text"id="from"requied autofocus placeholder="enter your station"list="froms"required>
+          <datalist id="froms">
+            <option disabled>--------</option>
+            <option value="mas">chennai</option>
+            <option value="dg">dindigul</option>
+          </datalist>
+      </select>
+      <br><br>
+        <label for="to"><b>TO</b></label>
+        <input type="text"id="to"requied placeholder="enter your station"list="tos"required >
+        <datalist id="tos">
+            <option disabled>--------</option>
+            <option value="mas">chennai</option>
+            <option value="dg">dindigul</option>
+        </datalist>
+        <br><br>
+        <label for="date"><b>DATE</b></label>
+        <input type="date"id="date"max="2022-03-21"min="2021-10-21" required >
+        <br><br>
+        <button type="submit" style="background: indianred;">SEARCH</button>
+      
+     </form>
+     <marquee behavior="scroll" direction="left" width="100%" style="color: red;">
+        For Complaints and Suggestions
+    </marquee>
+    
+</body>
+</html>
